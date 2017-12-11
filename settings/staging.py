@@ -20,7 +20,7 @@ PAYPAL_NOTIFY_URL = 'http://3d634082.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'minesh_mk@hotmail.co.uk'
 
 
-SITE_URL = 'http://127.0.0.1:8000'
+SITE_URL = 'https://mk-social-staging.herokuapp.com/'
 
 
 # Log DEBUG information to the console
