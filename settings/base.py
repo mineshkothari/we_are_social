@@ -10,7 +10,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '^d*kxd&*0c+rd++sev!rj@ia)don980*2x*cw@!zjoe^13*-5e'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'http://3d634082.ngrok.io']
+ALLOWED_HOSTS = ['127.0.0.1', '3d634082.ngrok.io']
 
 SITE_ID = 3
 
