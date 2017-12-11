@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '^d*kxd&*0c+rd++sev!rj@ia)don980*2x*cw@!zjoe^13*-5e'
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'http://3d634082.ngrok.io', 'https://mk-social-staging.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'http://3d634082.ngrok.io', 'mk-social-staging.herokuapp.com']
 
 
 SITE_ID = 3
