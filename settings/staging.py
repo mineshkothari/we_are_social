@@ -1,4 +1,7 @@
 from base import *
+import os
+import dj_database_url
+import settings
 
 
 DEBUG = False
@@ -16,11 +19,12 @@ STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_knqfSBZnYj97XjSodWc6fxot')
 
 
 # PayPal Settings
-PAYPAL_NOTIFY_URL = 'https://mk-social-staging.herokuapp.com/'
+PAYPAL_NOTIFY_URL = 'http://3d634082.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'minesh_mk@hotmail.co.uk'
 
 
-SITE_URL = 'mk-social-staging.herokuapp.com'
+SITE_URL = 'https://mk-social-staging.herokuapp.com'
+ALLOWED_HOSTS.append('mk-social-staging.herokuapp.com')
 
 
 # Log DEBUG information to the console
