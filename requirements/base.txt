@@ -15,6 +15,6 @@ requests==2.18.4
 six==1.11.0
 sqlparse==0.2.4
 stripe==1.75.3
-urllib3==1.22
+urllib3==1.26.5
 gunicorn==19.4
 git+https://github.com/mineshkothari/reusable_blog.git
